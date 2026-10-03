@@ -1,0 +1,32 @@
+# 📄 Profesyonel Akıllı Belge Tarayıcı (Smart Document Scanner)
+
+YOLO veya hazır yapay zeka ağırlık dosyaları (weights) kullanılmadan, tamamen **saf matematiksel geometri, kontur analizi ve görüntü işleme** teknikleriyle geliştirilmiş akıllı bir belge tarayıcı uygulamasıdır.
+
+---
+
+## 🚀 Projenin Amacı ve Özellikleri
+Bu proje, telefon veya web kamerasından alınan eğri/açılı belge fotoğraflarını algılayarak onları kusursuz bir şekilde **kuşbakışı (bird's-eye view)** formata getirir ve fotokopi kalitesinde siyah-beyaz belge çıktısına dönüştürür.
+
+* **📷 Fotoğraf Yükleme Desteği:** Bilgisayarınızdan `.jpg`, `.png` formatındaki belgeleri yükleyip tarayabilme.
+* **📹 Canlı Kamera Desteği:** Canlı video akışı üzerinden anlık belge yakalama.
+* **🎬 Video Dosyası Desteği:** Video dosyalarındaki kareleri işleyerek belge elde edebilme.
+* **📐 Perspektif Düzeltme (Warp Perspective):** Belgenin 4 köşesini otomatik algılayıp ekrana dikleştirme.
+* **✨ Adaptif Eşikleme (Adaptive Threshold):** Gölgeleri silerek belgelere net fotokopi görünümü kazandırma.
+* **📚 Çok Sayfalı Ortak PDF Arşivi:** Farklı modlarda yapılan tüm taramaları kaybetmeden, **tek bir ortak PDF dosyasında** sayfa sayfa biriktirme ve yönetme imkanı.
+
+---
+
+## 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
+* **Python**
+* **OpenCV (`cv2`)**: Görüntü işleme, kontur bulma ve perspektif dönüşümleri için.
+* **NumPy**: Matris ve geometri hesaplamaları için.
+* **Streamlit**: Modern ve hızlı web arayüzü oluşturmak için.
+* **FPDF2**: Taranan belgeleri çok sayfalı PDF belgesine dönüştürmek için.
+
+---
+
+## ⚙️ Kurulum ve Çalıştırma
+
+1. Proje klasörüne gidin:
+   ```bash
+   cd Akilli-Belge_Tarayici
